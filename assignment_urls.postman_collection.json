@@ -1,0 +1,89 @@
+{
+	"id": "068b4e8c-d4da-4483-b3e1-d3e11f13acb5",
+	"name": "assignment_urls",
+	"description": null,
+	"auth": null,
+	"events": null,
+	"variables": null,
+	"order": [
+		"0fac638d-f4f5-4c79-9a3d-b30f3315334f",
+		"e08a9804-0d40-43b3-b313-240ab8bffec2",
+		"c4f4f668-2692-4ee5-a432-f116f27c6876"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "0fac638d-f4f5-4c79-9a3d-b30f3315334f",
+			"name": "key1",
+			"url": "http://localhost:8000/1",
+			"description": "s",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "c4f4f668-2692-4ee5-a432-f116f27c6876",
+			"name": "key101-not found error(404)",
+			"url": "http://localhost:8000/101",
+			"description": "s",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "e08a9804-0d40-43b3-b313-240ab8bffec2",
+			"name": "key100",
+			"url": "http://localhost:8000/100/",
+			"description": "s",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		}
+	]
+}
