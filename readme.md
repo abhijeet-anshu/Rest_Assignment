@@ -44,14 +44,14 @@ Enter a docker-machine container as below:
 
 Add docker image to container as below:
 1. cd <project root directory>
-2. docker build -t abhijeetbaranwal/goibibo-app-rest_assignment .
+2. docker build -t abhijeetbaranwal/app-rest_assignment .
 
 Add port forwarding rule
 1. VBoxManage controlvm "development" natpf1 "tcp-port8000,tcp,,8000,,8000";
 
 Start the image by
 
-1. docker run -it -p 8000:8000 abhijeetbaranwal/goibibo-app-rest_assignment
+1. docker run -it -p 8000:8000 abhijeetbaranwal/app-rest_assignment
 
 ```
 Test
