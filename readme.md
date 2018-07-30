@@ -1,8 +1,10 @@
 A web application which loads a CSV on startup and then exposes an API to explore the file.
 
-The project has a single django app(api) which uses tastypie to implement rest
-The App has following file structure
-api
+The project has a single django app(api) which uses tastypie to implement rest.
+The App has following file structure:
+
+```
+tree api
 ├── admin.py
 ├── admin.pyc
 ├── apps.py
@@ -12,6 +14,8 @@ api
 ├── resources.py
 ├── tests.py
 └── views.py
+```
+
 
 The App has a model named Data having 2 attributes key and value. 
 
@@ -49,3 +53,10 @@ Start the image by
 
 1. docker run -it -p 8000:8000 abhijeetbaranwal/goibibo-app-rest_assignment
 
+```
+Test
+```
+
+1. Open postman
+2. Import collections from assignment_urls.postman_collection.json
+3. Run requests
