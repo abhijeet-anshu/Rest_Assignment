@@ -60,3 +60,10 @@ Test
 1. Open postman
 2. Import collections from assignment_urls.postman_collection.json
 3. Run requests
+
+
+```
+Assumptions
+```
+1. Upon start of app, all data is refreshed by CSV.
+2. Only get method is allowed to work.
